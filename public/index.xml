@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Convivialist Computer Club</title>
+    <link>https://convivialist-computer.club/</link>
+    <description>Recent content on Convivialist Computer Club</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>fr-fr</language><atom:link href="https://convivialist-computer.club/index.xml" rel="self" type="application/rss+xml" />
+  </channel>
+</rss>

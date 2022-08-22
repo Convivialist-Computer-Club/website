@@ -19,8 +19,8 @@ html {
     font-size: calc(1em + 0.33vw);
     font-family: Arial, Helvetica Neue, sans-serif;
     line-height: 1.5;
-    color: #111;
-    background-color: #fefefe;
+    color: #505a3a;
+    background-color: #f9f9f7;
 }
 template {
   display: none !important;

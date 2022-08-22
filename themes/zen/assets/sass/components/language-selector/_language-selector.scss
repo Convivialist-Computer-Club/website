@@ -1,0 +1,14 @@
+// Language selector
+
+.language-selector {
+  display: flex;
+}
+
+.language-icon {
+  @include margin-right(.5);
+
+  @include rtl() {
+    @include margin-left(.5);
+    margin-right: 0;
+  }
+}

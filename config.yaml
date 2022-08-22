@@ -2,88 +2,44 @@ baseURL: https://convivialist-computer.club/
 languageCode: fr-fr
 title: Convivialist Computer Club
 defaultContentLanguage: fr
-theme: cupper-hugo-theme
-
-googleAnalytics: false
-disqusShortname: false
-enableGitInfo: true
-
-taxonomies:
-  tag: tags
-
-permalinks:
-  post: /:filename/
-
-imaging:
-  quality: 99
+theme: hugo-flex
 
 params:
-  description: null
-  homeMetaContent: La meta description
-  footer: Propulsé par [Hugo](https://gohugo.io/). Un theme de [Cupper](https://github.com/zwbetz-gh/cupper-hugo-theme). Auto-hébergé.
-  # For more date formats see https://gohugo.io/functions/format/
-  dateFormat: Jan 2, 2006
-  codePenUser: someUser
-  katex: true
-  hideHeaderLinks: false
-  search: true
-  showThemeSwitcher: true
-  defaultDarkTheme: false
-  moveFooterToHeader: false
-  # navTitleText: Cupper Theme
-  logoAlt: An alternative text description of the logo
-  customCss:
-    - css/custom_01.css
-    - css/custom_02.css
-  customJs:
-    - js/custom_01.js
-    - js/custom_02.js
+  color: teal           # Any color in CSS syntax
+  width: 62rem          # Any length in CSS syntax
+  footer: >-            # A hardcoded space is needed before each html element
+    Sauf indication contraire, le contenu de ce site fait l'objet d'une licence en vertu de la &#32;
+    <a href="http://creativecommons.org/licenses/by/4.0/" rel="license">Creative
+    Commons Attribution 4.0 International License</a>.
+  rss: Pour vous abonner à ce flux RSS, copiez son adresse et collez-la dans votre lecteur de flux préféré.
+  summaries: false      # Set to true to show summaries of posts on homepage
+  divider: \a0          # Set to false to remove divider below posts on homepage
+  schema: false         # Set to true to add Schema.org metadata
+  opengraph: false      # Set to true to add Open Graph metadata
+  twittercards: false   # Set to true to add Twitter Cards metadata
+  utterances:
+    repo:               # Set to Utterances repo URL to add Utterances comments
+    issueterm: pathname
+    theme: github-light
+  netlify:
+    honeypot: false     # Set to true to add honeypot field in contact form
+    recaptcha: false    # Set to true to add recaptcha challenge in contact form
+  # css:                # Uncomment to add custom CSS from a list of files
+  #   - css/foo.css
+  #   - bar.css
+  # js:                 # Uncomment to add custom JS from a list of files
+  #   - js/foo.js
+  #   - bar.js
+
 
 menu:
   nav:
-    - name: Home
-      url: /
-      weight: 1
-    - name: Blog
-      url: /post/
-      weight: 2
-    - name: Tags
-      url: /tags/
-      weight: 3
-    - name: About
-      url: /about/
-      weight: 4
-    - name: RSS
-      url: /index.xml
-      weight: 5
-
-markup:
-  defaultMarkdownHandler: goldmark
-  goldmark:
-    extensions:
-      definitionList: true
-      footnote: true
-      linkify: true
-      strikethrough: true
-      table: true
-      taskList: true
-      typographer: true
-    parser:
-      attribute: true
-      autoHeadingID: true
-    renderer:
-      hardWraps: false
-      unsafe: true
-      xHTML: false
-  highlight:
-    codeFences: false
-    hl_Lines: ""
-    lineNoStart: 1
-    lineNos: false
-    lineNumbersInTable: true
-    noClasses: true
-    style: monokai
-    tabWidth: 4
-  tableOfContents:
-    endLevel: 6
-    startLevel: 2
+  - name: Réseaux sociaux décentralisés
+    url: reseaux-sociaux-decentralises/
+    weight: 1
+  - name: L'atelier
+    url: atelier/
+    weight: 2
+  - name: A propos
+    url: a-propos/
+    weight: 3

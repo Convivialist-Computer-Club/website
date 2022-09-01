@@ -3,10 +3,28 @@ title: "Le Convivialist Computer Club"
 
 ---
 
-# Bienvenue sur le site du Convivialist Computer Club
+## Bienvenue sur le site du Convivialist Computer Club
 
-Le club part d’un constat : l’informatique tend trop fréquemment à dégrader l’autonomie personnelle en se rendant indispensable. En créant un cocon numérique diront certains. L’objectif ne sera pas de débattre de ce constat — il existe d’autres lieux et d’autres organisations très compétentes pour cela — mais d’y trouver des alternatives.
+Le club part d’une opinion : l’informatique ne répond pas à l’utopie d’origine qui promettait à chaque personne de libérer son potentiel d’expression et de créativité.
 
-Pour cela, le club se propose de réunir deux types de public qui ne se rencontrent que trop peu. D’une part une communauté de personnes ayant des connaissances techniques, conscientes de leur tendance au solutionnisme technique, mais souhaitant partager leur savoir-faire sur des projets éthiques ou créatifs. Et d’autre part des personnes ou des communautés en recherche d’outils informatiques alternatifs, mais n’ayant pas les bases techniques pour les mettre en œuvre ou les concrétiser.
+Au contraire, nous pensons qu’elle conduit plutôt aujourd’hui à enfermer les individus dans un [cocon numérique](https://urbania.fr/article/entrevue-avec-alain-damasio-il-faut-se-mefier-du-techno-cocon) au profit de quelques-uns et au détriment de l’autonomie personnelle d’une majorité. Ceci au prix d’un coût environnemental exorbitant.
 
-Partant d’une définition commune de ce que devrait être un outil informatique convivial, nous pourrons alors soit tester des outils déjà existants, soit définir puis développer les nôtres.
+L’objet du club est d’emprunter ou de créer des voies allant dans un sens différent, que l'on désignera comme celui de la **convivialité**.
+
+C’est-à-dire des manières d’utiliser cet outil technique passionnant qu'est l’informatique
+> « ***sans difficulté, aussi souvent ou aussi rarement qu’on le désire, à des fins qu’on détermine nous-même.*** »
+
+D’accord, mais maintenant que les grands mots sont lâchés, concrètement, que propose le club ? 
+
+Nous proposons deux pistes pour le lancement du Convivialist Computer Club :
+
+- [Découvrir les réseaux sociaux décentralisés](/reseaux-sociaux-decentralises)
+- [Un atelier de production](/atelier)
+
+Bien évidemment, nous sommes ouverts à toutes vos idées tant qu’il ne s’agit pas d’un concept génial pour monter une start-up.
+
+### Le club se réunira 2 fois par mois au [Dôme](http://www.ledome.info/) 
+
+> 3 Esplanade Stéphane Hessel, 14000 Caen
+
+La première session aura lieu le **jeudi 15 septembre 2022 à 18h30**.

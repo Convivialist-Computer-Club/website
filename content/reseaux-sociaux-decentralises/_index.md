@@ -13,10 +13,10 @@ Le concept de réseau décentralisé n'est pas facile à expliquer.
 
 C'est pourquoi nous proposons l'approche par **l'exemple**. Pour cela, nous avons mis en place plusieurs instances :
 
-- [une instance de Mastodon]() pour remplacer Twitter
+- [une instance de Mastodon](https://microblog.convivialist-computer.club/web/home) pour remplacer Twitter
 - [une instance de Pixelfed](https://photos.convivialist-computer.club/i/web) pour remplacer Instagram
 - [une instance de Mobilizon](https://evenements.convivialist-computer.club/) pour remplacer Meetup
-- [une instance de Funkwhale]() pour remplacer ... Spotify ?
+- [une instance de Funkwhale](https://music.convivialist-computer.club) pour remplacer ... Spotify ?
 
 Nous serons disponibles lors des séances du CCC pour vous expliquer plus en détail la logique de ces réseaux et leur fonctionnement. 
 

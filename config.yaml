@@ -1,45 +1,60 @@
-baseURL: https://convivialist-computer.club/
+baseURL: https://convivialist.cc/
 languageCode: fr-fr
 title: Convivialist Computer Club
 defaultContentLanguage: fr
-theme: hugo-flex
+theme: digitalgarden
 
 params:
-  color: teal           # Any color in CSS syntax
-  width: 62rem          # Any length in CSS syntax
-  footer: >-            # A hardcoded space is needed before each html element
-    Sauf indication contraire, le contenu de ce site fait l'objet d'une licence en vertu de la &#32;
-    <a href="http://creativecommons.org/licenses/by/4.0/" rel="license">Creative
-    Commons Attribution 4.0 International License</a>.
-  rss: Pour vous abonner à ce flux RSS, copiez son adresse et collez-la dans votre lecteur de flux préféré.
-  summaries: false      # Set to true to show summaries of posts on homepage
-  divider: \a0          # Set to false to remove divider below posts on homepage
-  schema: false         # Set to true to add Schema.org metadata
-  opengraph: false      # Set to true to add Open Graph metadata
-  twittercards: false   # Set to true to add Twitter Cards metadata
-  utterances:
-    repo:               # Set to Utterances repo URL to add Utterances comments
-    issueterm: pathname
-    theme: github-light
-  netlify:
-    honeypot: false     # Set to true to add honeypot field in contact form
-    recaptcha: false    # Set to true to add recaptcha challenge in contact form
-  # css:                # Uncomment to add custom CSS from a list of files
-  #   - css/foo.css
-  #   - bar.css
-  # js:                 # Uncomment to add custom JS from a list of files
-  #   - js/foo.js
-  #   - bar.js
-
+  enableSearch: false
+  description: Le site du Convivialiste Computer Club
 
 menu:
-  nav:
-  - name: Réseaux sociaux décentralisés
-    url: reseaux-sociaux-decentralises/
-    weight: 1
-  - name: L'atelier
-    url: atelier/
-    weight: 2
-  - name: A propos
-    url: a-propos/
-    weight: 3
+  main:
+    - name: Accueil
+      url: /
+      weight: 1
+    - name: Le club
+      params:
+        header: true
+      weight: 2
+    - name: Les rencontres
+      url: /rencontres
+      weight: 3
+    - name: Fédiverse
+      url: /fediverse
+      weight: 4
+    - name: L'atelier
+      url: /atelier
+      weight: 5
+    - name: Why not
+      url: /incubateur
+      weight: 6
+    - name: A propos
+      url: /a-propos
+      weight: 7
+    - name: Les projets
+      params:
+        header: true
+      weight: 8
+    - name: Le Convivialist Music Club
+      url: /cmc
+      weight: 9
+    - name: Le Scanner à fanzines
+      url: /scanner
+      weight: 10
+  social:
+    - name: GitHub
+      url: "https://github.com"
+      weight: 2
+    - name: Email
+      url: "mailto:user@example.org"
+      weight: 8
+    - name: RSS
+      url: /articles/index.xml
+      weight: 9
+markup:
+  highlight:
+    style: dracula
+  goldmark:
+    renderer:
+      unsafe: true

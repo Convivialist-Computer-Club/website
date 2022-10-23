@@ -17,17 +17,17 @@ menu:
       params:
         header: true
       weight: 2
-    - name: Les rencontres
-      url: /rencontres
-      weight: 3
-    - name: Fédiverse
+    - name: Le fédiverse
       url: /fediverse
       weight: 4
     - name: L'atelier
       url: /atelier
-      weight: 5
-    - name: Why not
+      weight: 3
+    - name: Pourquoi pas ?
       url: /incubateur
+      weight: 5
+    - name: Les rencontres
+      url: /rencontres
       weight: 6
     - name: A propos
       url: /a-propos
@@ -37,10 +37,10 @@ menu:
         header: true
       weight: 8
     - name: Le Convivialist Music Club
-      url: /cmc
+      url: /projets/convivialist-music-club
       weight: 9
     - name: Le Scanner à fanzines
-      url: /scanner
+      url: /projets/scanner-a-fanzines
       weight: 10
   social:
     - name: GitHub

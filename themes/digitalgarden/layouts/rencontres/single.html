@@ -14,22 +14,16 @@
     <a href="{{ .Permalink }}">
       <h2 class="font-bold mb-5 py-1 pl-12 pr-3 md:px-3">{{ .Title }}</h2>
     </a>
-    {{- partial "search.html" . -}}
     <div class="space-y-2.5">
-      {{ range .Data.Pages.ByTitle -}}
+      {{ range .Data.Pages.ByDate.Reverse -}}
       {{ $isCurrentPage := eq .RelPermalink $permalink }}
       <a class="article block px-3 py-4 {{ if $isCurrentPage }} bg-slate-900 dark:bg-slate-700 text-slate-50 {{ else }} hover:bg-slate-200 dark:hover:bg-slate-700 {{ end }}"
         href="{{ .RelPermalink }}">
-        {{ $title := .Params.title }}
-        {{ with .Params.images }}
-        {{- range first 1 . }}
-        <img class="rounded max-w-full mb-4" src="{{ . }}" alt="{{ $title }}" />
-        {{ end -}}
-        {{ end }}
-        <h3 class="text-lg font-semibold mb-0.5">{{ $title }}</h3>
+        <h3 class="text-lg font-semibold mb-0.5">Edition #{{ .Params.edition }} du {{ .Date | time.Format ":date_long"
+          }}</h3>
         <div
           class="text-sm {{ if $isCurrentPage }} text-slate-400 {{ else }} text-slate-500 dark:text-slate-400 {{ end }} line-clamp-2">
-          {{ .Summary }}
+          Environs {{ .Params.attendees }} personnes étaient présentes pour cette éditon.
         </div>
       </a>
       {{ end -}}
@@ -39,21 +33,12 @@
 
   <div class="overflow-y-auto h-screen w-full">
     <article class="px-6 py-20 w-full mx-auto prose lg:prose-lg h-fit dark:prose-invert prose-img:mx-auto">
-
-      {{ $title := .Params.title }}
-      <h1 class="!mb-2">{{ $title }}</h1>
-
-      {{ if .Date }}
-      <p class="text-sm text-slate-500 !mb-8"> Planted {{ $date }}
-        {{ if ne $lastmod $date}}
-        <br /> Pruned {{ .Lastmod.Format "January 2, 2006" }}
-        {{ end }}
-      </p>
-      {{ end }}
+      <h1 class="!mb-2">Edition #{{ .Params.edition }}</h1>
+      <h2 class="!mb-2">{{ .Date | time.Format ":date_long"}}</h2>
 
       {{ with .Params.images }}
       {{- range first 1 . }}
-      <img class="rounded max-w-full mx-auto mb-4" src="{{ . }}" alt="{{ $title }}" />
+      <img class="rounded max-w-full mx-auto mb-4" src="{{ . }}" alt="Edition ccc" />
       {{ end -}}
       {{ end }}
 

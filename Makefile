@@ -11,4 +11,4 @@ build: ## Génération des statiques finaux
 	hugo
 
 deploy: build ## Deploiement du site
-	rsync -avz --delete public/ vm-freebox:/var/www/ccc/www
+	rsync -avz --delete public/ ccc:/var/www/ccc-static

@@ -17,4 +17,4 @@ Donc, si l'informatique que vous connaissez vous déçoit, vous bride ou vous im
 
 > 3 Esplanade Stéphane Hessel, 2e étage.
 
-La prochaine session aura lieu le **jeudi 27 octobre 2022 à 18h00**.
+La prochaine session aura lieu le **jeudi 24 novembre 2022 à 18h00**.

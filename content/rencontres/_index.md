@@ -6,4 +6,4 @@ title: "Les rencontres"
 
 > 3 Esplanade Stéphane Hessel, 2e étage.
 
-La prochaine session aura lieu le **jeudi 27 octobre 2022 à 18h00**.
+La prochaine session aura lieu le **jeudi 02 mars 2023 à 18h00**.

@@ -11,4 +11,4 @@ build: ## Génération des statiques finaux
 	hugo
 
 deploy: build ## Deploiement du site
-	rsync -avz --delete public/ ccc:/var/www/ccc-static
+	rsync -avz --delete public/ incaya-general:/var/www/ccc/site

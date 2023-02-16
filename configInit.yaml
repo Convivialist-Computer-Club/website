@@ -17,12 +17,21 @@ menu:
       params:
         header: true
       weight: 2
+    - name: Le fédiverse
+      url: /fediverse
+      weight: 4
     - name: L'atelier
       url: /atelier
       weight: 3
+    - name: Pourquoi pas ?
+      url: /incubateur
+      weight: 5
     - name: Les rencontres
       url: /rencontres
       weight: 6
+    - name: A propos
+      url: /a-propos
+      weight: 7
     - name: Les projets
       params:
         header: true
